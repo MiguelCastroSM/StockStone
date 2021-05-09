@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	
 	import CustomButton from './CustomButton.svelte';
 
 function handleClick() {
