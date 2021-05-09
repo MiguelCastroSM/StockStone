@@ -8,27 +8,31 @@ function handleClick() {
 </script>
 
 <main>
+	<img style="text-align: left;" src="logo.jpg" alt="logo">
+
 	<h1> Stone Control Stock</h1>
-	
+	<center>
 	<CustomButton nombre="Controlar Stock" on:click={handleClick}/>
 	<CustomButton nombre="Agregar Stock" on:click={handleClick}/>
 	<CustomButton nombre="Quitar  &nbsp;Stock &nbsp;" on:click={handleClick}/>
+	</center>
 </main>
 
 <style>
 	main {
-		text-align: center;
+		
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-		background-color: whitesmoke;
+		background-color: white;
 	}
 
 	h1 {
+		text-align: center;
 		color: #44b6ac;
 		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+		font-size: 350%;
+		
 	}
 
 	@media (min-width: 640px) {
