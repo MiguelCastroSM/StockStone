@@ -9,6 +9,7 @@
 
 <style>
 	button {
+		text-align: center;
 		height: auto;
 		width: 30%;
 		background-color:#44b6ac;
